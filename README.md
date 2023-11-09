@@ -5,13 +5,15 @@ Programma che chiede all’utente la sua email, controlla che sia nella lista di
 - creo un array di mail che possono accedere
 - prompt che chiede all'utente di inserire una mail
 - il valore inserito dall'utente viene salvato in una variabile
-- la mail inserita viene confrontata co le mail nell'array tramite un ciclo che agisce nel seguente modo:
+- creo una variabile che memorizza l'indice dell'ultimo elemento dell'array
+- la mail inserita viene confrontata con le mail nell'array tramite un ciclo che agisce nel seguente modo:
   - si scorre l'array contenente le mail valide per accedere
   - si confronta la mail inserita con ogni elemento dell'array
     - se la mail inserita è uguale a una di quelle nell'array
       - stampo in console che si può accedere
       - smetto di scorrere l'array
-    - altrimenti proseguo nel ciclo confrontando l'elemento successivo
+    - altrimenti controllo se si tratta dell'ultimo elemento dell'array
+      - se sì stampo in console che la mail inserita non è valida
 
 ## Gioco dei dadi
 
